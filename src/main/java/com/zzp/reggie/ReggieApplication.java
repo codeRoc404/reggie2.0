@@ -35,5 +35,6 @@ public class ReggieApplication {
                 "Local: \t\thttp://localhost:" + port + path + "\n\t" +
                 "External: \thttp://" + ip + ":" + port + path + "\n\t" +
                 "----------------------------------------------------------------------------------------------------");
+        System.out.println("hello");
     }
 }
