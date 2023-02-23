@@ -7,9 +7,9 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      url: jdbc:mysql://192.168.15.129:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
-      password: zzp
+      password: root
   mvc:
     hiddenmethod:
       filter:
@@ -23,4 +23,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: E:\Documents\开发学习文档\瑞吉外卖\1 瑞吉外卖项目\资料\图片资源\
+  path: /usr/local/pics/
